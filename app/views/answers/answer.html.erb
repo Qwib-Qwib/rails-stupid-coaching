@@ -1,0 +1,12 @@
+<div class="question quote-block">
+  <blockquote class="blockquote"><%= params[:question] %></blockquote>
+  <figcaption class="blockquote-footer">You</figcaption>
+</div>
+
+<div class="answer quote-block">
+  <blockquote class="blockquote"><%= @answer %></blockquote>
+  <figcaption class="blockquote-footer">Your coach</figcaption>
+</div>
+<div class="text-decoration-none">
+  <%= link_to 'Ask a new question', ask_path %>
+</div>

@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.quote-block {
+  border-left: solid 8px lightgray;
+  padding-left: 16px;
+}
+
+.answer {
+  background-color: rgb(238, 238, 215);
+}
+
+figcaption {
+  font-style: italic;
+}
